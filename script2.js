@@ -29,3 +29,5 @@ export let students = {
 
 
 export let showContacts = ({contacts})=> `Questi sono i miei contatti ${contacts.join(',')}`;
+
+
