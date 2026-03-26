@@ -6,4 +6,5 @@ let student = {
     course: 'Specializzazione ReactJS'
 }
 
+
 export default student;

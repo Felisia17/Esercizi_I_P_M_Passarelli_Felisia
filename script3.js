@@ -1,9 +1,10 @@
 // variabile e funzione
 
-import { result, students ,showContacts } from "./script2.js";
+import { firstFunction , showContacts } from "./script2.js";
 import student from './script.js'
 
-console.log(student);
+let nameList = ['Felisia', 'Andrea', 'Zena'];
+let result = firstFunction(student, nameList);
 console.log(result);
-console.log(showContacts(students));
+console.log(showContacts(result));
 
